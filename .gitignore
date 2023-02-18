@@ -421,7 +421,7 @@ fabric.properties
 !.vscode/launch.json
 !.vscode/extensions.json
 !.vscode/*.code-snippets
-
+.vscode
 # Local History for Visual Studio Code
 .history/
 
@@ -839,6 +839,10 @@ FodyWeavers.xsd
 
 
 Migrations/
+
+*.db*
+
+
 # JetBrains Rider
 
 ### VisualStudio Patch ###
