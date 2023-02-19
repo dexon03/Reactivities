@@ -23,7 +23,7 @@ public class ActivitiesController : BaseApiController
     }
     
     [HttpGet("{id}")]
-    public async Task<ActionResult<Activity>> GetActivitiesAsync(Guid id)
+    public async Task<ActionResult<Activity>> GetActivityAsync(Guid id)
     {
         var activity =  await _context.Activities.FirstOrDefaultAsync(u => u.Id == id);
         if (activity == null)
